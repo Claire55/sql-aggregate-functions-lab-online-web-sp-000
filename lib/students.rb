@@ -13,9 +13,9 @@ def average_student_gpa
 end
 
 def total_tardies_for_all_students
-  "SELECT COUNT(*) FROM students WHILE  tardies > 0"
+  "SELECT COUNT(*) FROM students WHILE tardies > 0"
 end
 
 def average_gpa_for_9th_grade
-  "SELECT AVG"
+  "SELECT AVG(gpa) FROM cats WHILE grade = 9"
 end
